@@ -4,7 +4,7 @@
 int main(void)
 {  
     stdio_init_all();
-    printf("\n\nHello World\n");
+    printf("\n\nHello World Hello\n");
     gpio_init(PICO_DEFAULT_LED_PIN);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
     while (true)
